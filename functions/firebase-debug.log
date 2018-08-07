@@ -1,0 +1,18 @@
+[debug] [2018-08-07T11:41:45.695Z] ----------------------------------------------------------------------
+[debug] [2018-08-07T11:41:45.700Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Adam\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --project one-time-password-1e4a7
+[debug] [2018-08-07T11:41:45.701Z] CLI Version:   4.0.3
+[debug] [2018-08-07T11:41:45.701Z] Platform:      win32
+[debug] [2018-08-07T11:41:45.701Z] Node Version:  v10.6.0
+[debug] [2018-08-07T11:41:45.702Z] Time:          Tue Aug 07 2018 13:41:45 GMT+0200 (GMT+02:00)
+[debug] [2018-08-07T11:41:45.702Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-07T11:41:45.722Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-07T11:41:45.723Z] > authorizing via signed-in user
+[debug] [2018-08-07T11:41:45.726Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/one-time-password-1e4a7  
+  
+ Tue Aug 07 2018 13:41:45 GMT+0200 (GMT+02:00)
+[debug] [2018-08-07T11:41:49.871Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-07T11:41:49.874Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/one-time-password-1e4a7/tokens  
+  
+ Tue Aug 07 2018 13:41:49 GMT+0200 (GMT+02:00)
+[debug] [2018-08-07T11:41:51.087Z] <<< HTTP RESPONSE 200
