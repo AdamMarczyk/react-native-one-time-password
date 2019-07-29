@@ -1,8 +1,19 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.13.5
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   SNYK-JS-AXIOS-174505:
     - axios:
         patched: '2019-05-05T23:39:24.201Z'
+  SNYK-JS-LODASH-450202:
+    - react-native > metro-babel-register > @babel/core > lodash:
+        patched: '2019-07-29T23:47:32.227Z'
+    - react-native > metro-babel-register > @babel/core > @babel/types > lodash:
+        patched: '2019-07-29T23:47:32.227Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2019-07-29T23:47:32.227Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2019-07-29T23:47:32.227Z'
+    - react-native > @react-native-community/cli > metro > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2019-07-29T23:47:32.227Z'
