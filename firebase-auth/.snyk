@@ -15,3 +15,15 @@ patch:
         patched: '2019-09-12T23:39:22.106Z'
     - react-native > @react-native-community/cli > metro-config > metro > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
         patched: '2019-09-12T23:39:22.106Z'
+    - react-native > metro-babel-register > @babel/core > lodash:
+        patched: '2019-09-13T23:39:41.327Z'
+    - react-native > metro-babel-register > @babel/core > @babel/types > lodash:
+        patched: '2019-09-13T23:39:41.327Z'
+    - react-native > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2019-09-13T23:39:41.327Z'
+    - react-native > @react-native-community/cli > metro > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2019-09-13T23:39:41.327Z'
+    - react-native > @react-native-community/cli > metro-react-native-babel-transformer > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2019-09-13T23:39:41.327Z'
+    - react-native > @react-native-community/cli > metro-config > metro > metro-react-native-babel-preset > @babel/template > @babel/types > lodash:
+        patched: '2019-09-13T23:39:41.327Z'
